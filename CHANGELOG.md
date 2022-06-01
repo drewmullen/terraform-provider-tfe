@@ -6,6 +6,9 @@ BUG FIXES:
 FEATURES:
 * r/team, d/team: Add manage_run_tasks to the tfe_team organization_access attributes ([#486](https://github.com/hashicorp/terraform-provider-tfe/pull/486))
 
+ENHANCEMENTS:
+* d/agent_pool: Improve efficiency of reading agent pool data when the target organization has more than 20 agent pools ([#508](https://github.com/hashicorp/terraform-provider-tfe/pull/508))
+
 ## 0.31.0 (April 21, 2022)
 
 BUG FIXES:
