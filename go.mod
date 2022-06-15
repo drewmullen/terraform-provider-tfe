@@ -50,7 +50,7 @@ require (
 	github.com/hashicorp/go-getter v1.5.3 // indirect
 	github.com/hashicorp/go-plugin v1.4.1 // indirect
 	github.com/hashicorp/go-safetemp v1.0.0 // indirect
-	github.com/hashicorp/go-uuid v1.0.2 // indirect
+	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/jsonapi v0.0.0-20210826224640-ee7dae0fb22d // indirect
 	github.com/hashicorp/logutils v1.0.0 // indirect
 	github.com/hashicorp/terraform-exec v0.15.0 // indirect
@@ -76,3 +76,5 @@ require (
 	google.golang.org/genproto v0.0.0-20210319143718-93e7006c17a6 // indirect
 	google.golang.org/grpc v1.36.0 // indirect
 )
+
+replace github.com/hashicorp/go-tfe v1.2.0 => /Users/taylorbrooks/Documents/workspace/repos/hashicorp/go-tfe
